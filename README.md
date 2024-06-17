@@ -8,7 +8,7 @@ This project showcases the application of `Genetic Algorithm` to the TSP, demons
 ## Table of Contents
 - [1. Genetic Algorithm](#GA)
 - [2. Graph Data Structure](#graph)
-- [3. Data](#data)
+- [3. City Distance Table](#data)
 
 
 
@@ -29,7 +29,7 @@ A Genetic Algorithm (GA) is an evolutionary optimization technique inspired by n
 Quick retrieval of distance data during the execution of the genetic algorithm is crucial. That is why we implement a graph data structure from scratch to represent each city as a node and the distances between cities as weighted edges. A graph data structure is a collection of nodes (vertices) and edges connecting pairs of nodes. It is used to represent relationships or connections between entities.
 
 <a name="data"></a>
-## 3. Data
+## 3. City Distance Table
 We use the data provided in the table for TSP distances. This table includes the distances between each pair of cities in kilometres, serving as the input for our genetic algorithm to determine the optimal route.
 ![image](https://github.com/PeymanKh/genetic_algorithm_for_TSP/assets/118134658/117ad31e-688b-4480-afff-0ccefe37d746)
 
