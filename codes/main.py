@@ -15,7 +15,9 @@ Functions:
 Usage:
     This module serves as the entry point for solving the TSP using a genetic algorithm. It requires user input
     for the genetic algorithm parameters and provides a visual and textual representation of the results.
-
+    
+Author: Peyman Kh
+Date: 26/May/2024
 """
 
 # Import libraries
