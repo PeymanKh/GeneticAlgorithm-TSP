@@ -9,6 +9,8 @@ This project showcases the application of `Genetic Algorithm` to the TSP, demons
 - [1. Genetic Algorithm](#GA)
 - [2. Graph Data Structure](#graph)
 - [3. City Distance Table](#data)
+- [4. How to Run The Algorithm](#algorithm)
+
 
 
 
@@ -32,6 +34,35 @@ Quick retrieval of distance data during the execution of the genetic algorithm i
 ## 3. City Distance Table
 We use the data provided in the table for TSP distances. This table includes the distances between each pair of cities in kilometres, serving as the input for our genetic algorithm to determine the optimal route.
 ![image](https://github.com/PeymanKh/genetic_algorithm_for_TSP/assets/118134658/117ad31e-688b-4480-afff-0ccefe37d746)
+
+<a name="algorithm"></a>
+## 4. How to Run The Algorithm
+
+First, clone the repository to your local machine using the following command:
+```bash
+git clone git@github.com:PeymanKh/genetic_algorithm_for_TSP.git
+```
+
+Change to the project directory:
+```bash
+cd genetic_algorithm_for_TSP
+```
+
+Create and Activate a Virtual Environment
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+Install Required Libraries
+```bash
+pip install -r requirements.txt
+```
+
+Run the Application
+```bash
+python3 main.py
+```
 
 
 
