@@ -40,7 +40,7 @@ We use the data provided in the table for TSP distances. This table includes the
 
 First, clone the repository to your local machine using the following command:
 ```bash
-git clone https://github.com/PeymanKh/solve_tsp_with_genetic_algorithm.git
+git clone https://github.com/PeymanKh/solve_tsp_using_genetic_algorithm.git
 ```
 
 Change to the project directory:
